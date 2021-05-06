@@ -1,0 +1,60 @@
+/*
+Error: @charset may only be used at the root of a document.
+        on line 1 of vendor/slick.scss
+        from line 5 of core.scss
+
+1: :global {
+2:   @import 'base';
+3:   @import 'vendor/normalize';
+4:   @import 'vendor/markers';
+5:   @import 'vendor/slick';
+6:   @import 'header';
+
+Backtrace:
+vendor/slick.scss:1
+core.scss:5
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:13:in `visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `map'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:64:in `visit_import'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `map'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:38:in `visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `map'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:57:in `visit_root'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:36:in `visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/visitors/base.rb:24:in `visit'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/root_node.rb:37:in `css_tree'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/engine.rb:295:in `render_with_sourcemap'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `each'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/plugin.rb:82:in `update_stylesheets'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/exec/sass_scss.rb:364:in `watch_or_update'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/exec/sass_scss.rb:51:in `process_result'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/exec/base.rb:52:in `parse'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/lib/sass/exec/base.rb:19:in `parse!'
+c:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.15/bin/scss:13:in `<top (required)>'
+C:/Ruby22-x64/bin/scss:23:in `load'
+C:/Ruby22-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: @charset may only be used at the root of a document.\A         on line 1 of vendor/slick.scss\A         from line 5 of core.scss\A \A 1: :global {\A 2:   @import 'base';\A 3:   @import 'vendor/normalize';\A 4:   @import 'vendor/markers';\A 5:   @import 'vendor/slick';\A 6:   @import 'header';"; }

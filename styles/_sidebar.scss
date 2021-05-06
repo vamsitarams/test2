@@ -1,0 +1,223 @@
+.side-menu {
+  padding-top: $header-height;
+  width: $sidevar-closed-width;
+  position: fixed;
+  z-index: 28;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: $base-bg-color;
+  color: $sidebar-text-color;
+  overflow: hidden;
+  a {
+    color: $sidebar-link-color;
+  }
+  .nav {
+    @include reset-list();
+    border-bottom: 1px solid lighten(desaturate(adjust-hue($base-bg-color, -1.4771), 7.9157), 8.0392);
+
+    a {
+      display: block;
+      padding: 19px 15px 18px 47px;
+      min-height: 53px;
+      position: relative;
+
+      &.active {
+        background-color: lighten(saturate(adjust-hue($base-bg-color, -13.8158), 17.1084), 10.5882);
+      }
+
+      &:hover {
+        text-decoration: none;
+        background-color: lighten(saturate(adjust-hue($base-bg-color, -13.8158), 17.1084), 10.5882);
+      }
+      &:before {
+        content: '';
+        position: absolute;
+        top: 13px;
+        left: 9px;
+        width: 28px;
+        height: 30px;
+        background: url("images/icon-sprites.png") no-repeat;
+      }
+    }
+    .flight-status-lnk {
+      a:before {
+        background-position: -50px 0;
+      }
+    }
+    .traveler-list-lnk {
+      a:before {
+        background-position: -97px -2px;
+      }
+    }
+  }
+  .menu-opened {
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    width: 100%;
+    border-top: 1px solid lighten(desaturate(adjust-hue($base-bg-color, -1.4771), 7.9157), 8.0392);
+    padding: 11px 11px 11px 45px;
+    min-height: 37px;
+    font-size: $font-size-xs;
+    color: lighten(saturate(adjust-hue($gray-color, 3.8095), 10.1408), 5.0980);
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 9px;
+      width: 23px;
+      height: 20px;
+      background: url("images/icon-sprites.png") no-repeat -195px -10px;
+    }
+
+    em {
+      font-style: normal;
+    }
+  }
+}
+
+.helpedTravelers {
+  padding-top: 18px;
+
+  h4 {
+    color: lighten(desaturate(adjust-hue($base-bg-color, 1.8660), 9.1416), 36.0784);
+    font-size: $font-size-xs;
+    font-weight: $fw-regular;
+    margin: 0;
+    padding: 0 10px 7px;
+  }
+  .helped-travelers-list {
+    @include reset-list();
+
+    a {
+      display: block;
+      padding: 11px 3px 11px 33px;
+      position: relative;
+
+      &.active{
+        background-color: lighten(saturate(adjust-hue($base-bg-color, -13.8158), 17.1084), 10.5882);
+      }
+    }
+
+    .icon {
+      display: inline-block;
+      vertical-align: baseline;
+      margin-right: 8px;
+      @extend %icon-min;
+      position: absolute;
+      left: 13px;
+      top: 11px;
+    }
+
+    strong {
+      display: inline-block;
+      vertical-align: baseline;
+      font-weight: $fw-regular;
+      position: relative;
+      padding: 0 8px;
+      min-height: 19px;
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: baseline;
+    }
+
+    .open-menu {
+      max-width: 130px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .message-icon {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      margin: -3px 0 0;
+    }
+  }
+
+  .message-icon {
+    @include hide-text();
+    width: 5px;
+    height: 5px;
+    background-color: $blue-color;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin: 0 3px;
+  }
+}
+
+.side-menu-opened {
+  .main {
+    padding-left: $sidevar-opened-width;
+  }
+
+  .side-menu {
+    width: $sidevar-opened-width;
+  }
+
+  .close-menu {
+    display: none !important;
+  }
+}
+.opened-by-hover{
+  .main {
+    padding-left: $sidevar-closed-width;
+  }
+}
+.side-menu-closed {
+  .main {
+    padding-left: $sidevar-closed-width;
+  }
+
+  .side-menu {
+    width: $sidevar-closed-width;
+    h4 {
+      padding: 0 0 7px;
+      text-align: center;
+    }
+  }
+
+  .side-menu .nav a span {
+    display: none !important;
+  }
+  .open-menu {
+    display: none !important;
+  }
+
+
+  .helpedTravelers {
+    .icon {
+      display: none !important;
+    }
+    .helped-travelers-list a {
+      padding: 11px 0;
+      text-align: center;
+    }
+  }
+
+  .traveler-alarm span.close-menu {
+    color: $alarm-color;
+  }
+  .traveler-warning span.close-menu {
+    color: $warning-color;
+  }
+  .traveler-ok span.close-menu {
+    color: $ok-color;
+  }
+  .menu-opened {
+    &:before {
+      background-position: -148px -10px;
+    }
+    em {
+      display: none !important;
+    }
+  }
+}

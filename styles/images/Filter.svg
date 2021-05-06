@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Filter</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filters-Menu-FlightBoard" transform="translate(-22.000000, -6.000000)" fill="#0069C4" fill-rule="nonzero">
+            <g id="Header" transform="translate(22.000000, 6.000000)">
+                <g id="Filter" transform="translate(0.000000, 0.000000)">
+                    <path d="M7.5959107,9.45074613 C7.80771202,9.6791443 7.9239951,9.97750228 7.9239951,10.2861485 L7.9239951,19.3809227 C7.9239951,19.9282758 8.59054631,20.2060574 8.98507818,19.8212579 L11.5453824,16.9138108 C11.8880021,16.5063979 12.0769622,16.3047285 12.0769622,15.9014514 L12.0769622,10.2882061 C12.0769622,9.97955992 12.1953217,9.68120195 12.4050465,9.45278319 L19.7516245,1.55351912 C20.3018926,0.96091845 19.8783108,0 19.0643084,0 L0.936607272,0 C0.12262573,0 -0.303053393,0.958860809 0.249291225,1.55351912 L7.5959107,9.45074613 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

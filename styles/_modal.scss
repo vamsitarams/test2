@@ -1,0 +1,305 @@
+.ReactModal__Overlay {
+  -webkit-perspective: 600px;
+  perspective: 600px;
+  opacity: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  z-index: 1003;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transition: opacity 150ms ease-out;
+}
+
+.ReactModal__Content {
+  opacity: 0;
+  margin-top: -50px;
+  box-shadow: $popup-shadow;
+  border: none !important;
+  position: relative;
+  overflow: hidden !important;
+
+  .close-button {
+    @include hide-text();
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 11px;
+    height: 11px;
+    background: url("images/icon-sprites.png") no-repeat -108px -131px;
+    z-index: 20;
+  }
+
+  .modal-reservation + .close-button{
+    top: 25px;
+  }
+}
+
+.ReactModal__Content--after-open {
+  opacity: 1;
+  margin-top: -0;
+  transition: all 150ms ease-out;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content--before-close {
+  opacity: 0;
+  margin-top: -50px;
+  transition: all 150ms ease-in;
+}
+
+.ReactModal__Content.modal-dialog {
+  border: none;
+  background-color: transparent;
+}
+
+.modal-head {
+  border-bottom: 1px solid lighten(saturate(adjust-hue($gray-color, -9.5238), 3.1843), 0.3922);
+  background-color: lighten(saturate(adjust-hue($gray-color, -12.8571), 1.2520), 10.3922);
+  height: 41px;
+  padding-right: 40px;
+
+  h3 {
+    margin: 0;
+    font-size: $font-size-default;
+    color: $primary-text-color;
+    font-weight: $fw-bold;
+    padding: 12px 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tabset {
+    @include reset-list();
+    margin-bottom: -1px;
+    overflow: hidden;
+
+    li {
+      display: inline-block;
+    }
+
+    a {
+      min-width: 144px;
+      height: 41px;
+      display: inline-block;
+      text-align: center;
+      color: $secondary-text-color;
+      padding: 11px 5px;
+
+      &.active {
+        color: $primary-text-color;
+        font-weight: $fw-semi-bold;
+        border-bottom: 3px solid $blue-color;
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.modal-scroll {
+  height: 334px;
+  overflow: auto;
+
+  table {
+    width: 100%;
+
+    th {
+      background-color: lighten(saturate(adjust-hue($gray-color, -6.8571), 0.3449), 4.3137);
+      text-align: center;
+      font-weight: $fw-bold;
+      color: $primary-text-color;
+      font-size: $font-size-xs;
+      padding: 10px 5px;
+    }
+    td {
+      border-bottom: 1px solid lighten(saturate(adjust-hue($gray-color, -6.8571), 0.3449), 4.3137);
+      text-align: center;
+      color: $primary-text-color;
+      padding: 10px 5px;
+
+      &:first-child {
+        text-align: right;
+        width: 100px;
+      }
+    }
+  }
+  .on {
+    color: $green-color;
+    font-weight: $fw-bold;
+  }
+  .off {
+    color: $secondary-text-color;
+  }
+}
+
+.fake-select {
+  position: relative;
+  margin-bottom: 15px;
+
+  .collapseOpener {
+    border: 1px solid lighten(saturate(adjust-hue($gray-color, -5.3571), 20.9101), 3.7255);
+    font-size: $font-size-default;
+    line-height: $line-height-default;
+    color: $primary-text-color;
+    border-radius: 1px;
+
+    em {
+      display: block;
+      font-style: normal;
+      padding: 7px 32px 8px 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    span.arrow {
+      width: 10px;
+      right: 9px;
+      background-position: -73px -135px;
+      margin-top: -2px;
+    }
+
+    &.expanded {
+      border-color: $blue-color;
+    }
+  }
+
+  .fake-select-drop {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    background-color: $white-color;
+    border: 1px solid $blue-color;
+    font-size: $font-size-default;
+    line-height: $line-height-default;
+
+    .react-sanfona-item {
+      border-top: 1px solid lighten(saturate(adjust-hue($gray-color, -5.3571), 20.9101), 3.7255);
+
+      &:first-child {
+        border: none;
+      }
+    }
+
+    h3 {
+      position: relative;
+      padding: 8px 30px 8px 10px;
+      margin: 0;
+      font-weight: $fw-regular;
+      font-size: $font-size-default;
+      line-height: $line-height-default;
+      color: $primary-text-color;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 9px;
+        top: 50%;
+        margin-top: -3px;
+        width: 9px;
+        height: 7px;
+        background: url("images/icon-sprites.png") -6px -135px;
+        opacity: 0.5;
+      }
+    }
+    .react-sanfona-item-expanded {
+      h3 {
+        &:after {
+          background-position: -39px -135px;
+        }
+      }
+    }
+    ul {
+      @include reset-list();
+      a {
+        color: $primary-text-color;
+        display: block;
+        padding: 6px 10px;
+        background-color: lighten(desaturate(adjust-hue($blue-color, 1.1834), 5.7404), 38.8235);
+
+        &:hover {
+          text-decoration: none;
+          background-color: lighten(desaturate(adjust-hue($blue-color, 0.3834), 1.4114), 30.0000);
+        }
+      }
+    }
+  }
+}
+
+.modal-block {
+  padding: 15px;
+
+  textarea {
+    width: 100%;
+    display: block;
+    padding: 5px 10px;
+    margin: 0 0 15px;
+    height: 200px;
+    border: 1px solid lighten(saturate(adjust-hue($gray-color, -5.3571), 20.9101), 3.7255);
+    font-size: $font-size-default;
+    line-height: $line-height-default;
+    color: $primary-text-color;
+    overflow: auto;
+    resize: none;
+    outline: none;
+
+    @include placeholder {
+      color: $disabled-text-color;
+    }
+
+    &:focus {
+      color: $primary-text-color;
+      border-color: $blue-color;
+    }
+  }
+  .btn-hold {
+    overflow: hidden;
+
+    .btn {
+      float: right;
+      margin-left: 10px;
+    }
+  }
+}
+.ReactModal__Content{
+  & > div, & > form{
+    width: 420px;
+    height: 375px;
+  }
+  .modal-reservation{
+    width: 670px;
+    height: auto;
+    max-height: 86vh;
+    padding:1px;
+
+    .tl-content {
+      overflow-x: auto;
+      height: auto;
+      max-height: 65vh;
+    }
+
+    .reservation-item.item-l2 {
+      margin: 0;
+
+      .collapseOpener{
+        border: none;
+        &.expanded+div{
+          border: none;
+        }
+        span.arrow{
+          display: none;
+        }
+      }
+    }
+  }
+}

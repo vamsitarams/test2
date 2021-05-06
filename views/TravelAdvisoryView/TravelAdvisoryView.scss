@@ -1,0 +1,226 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.travel-advisory-holder {
+  position: relative;
+}
+
+.travel-advisory-col {
+  width: $left-col-width;
+  // position: relative;
+  display: flex;
+  float: left;
+  // padding-left: 240px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: lighten(desaturate(adjust-hue($primary-text-color, 0.0000), 1.7172), 6.6667);
+  border-right: 2px solid #D5D7DB;
+  background-color: #F5F6F7;
+
+  .travel-advisory-col-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 15px;
+    background-color: #F5F6F7;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, .11);
+    height: 56px;
+  }
+
+  .travel-advisory-col-cnt {
+    padding: 20px 0 20px 20px;
+
+    h3 {
+      margin-bottom: -10px;
+    }
+  }
+
+  .travel-advisory-col-label-padding {
+    padding-bottom: 10px;
+  }
+
+  .advisory-info {
+    p {
+      font-size: 12px;
+    }
+  }
+
+  // a {
+  //   color: lighten(desaturate(adjust-hue($primary-text-color, 0.0000), 1.7172), 6.6667);
+  // }
+
+  .sticky-is-fixed > div {
+    padding: 0;
+  }
+
+  .status-list {
+    @include reset-list();
+    color: $secondary-text-color;
+    font-size: $font-size-xs;
+    float: right;
+
+    li {
+      float: left;
+
+      & + li {
+        padding-left: 8px;
+      }
+    }
+
+    strong {
+      font-weight: $fw-regular;
+    }
+
+    .icon {
+      @extend %icon-min;
+      float: left;
+      margin-right: 4px;
+
+      &.warning {
+        margin: -2px 3px 0 0;
+      }
+    }
+  }
+
+  .search-block {
+    float: none;
+    input[name=search] {
+      width: 400px;
+    }
+    .btn-clear {
+      position: absolute;
+      top: 12px;
+      right: 8px;
+      background: red;
+      width: 11px;
+      height: 11px;
+      border: 0;
+      padding: 0;
+      overflow: hidden;
+      background: url("./../../styles/images/icon-sprites.png") no-repeat -108px -131px;
+      text-indent: -9999px;
+      cursor: pointer;
+    }
+  }
+}
+
+.country-list-cntr {
+  max-height: 100%;
+
+  .country-list {
+    @include reset-list();
+
+
+    .no-travelers {
+      opacity: 0.5;
+    }
+    .country-item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      align-items: stretch;
+      margin: 0 0 0 -20px;
+      padding: 0 0 0 20px;
+      .letter {
+        width: 20px;
+        padding: 13px 5px 14px 0;
+        em {
+          text-transform: uppercase;
+          font-style: normal;
+          font-weight: bold;
+        }
+      }
+      .country-travelers {
+        flex-grow: 1;
+        text-align: right;
+      }
+      .text {
+        display: flex;
+        flex-grow: 1;
+        border-bottom: 1px solid #ccc;
+        padding: 14px 5px 14px 0;
+        .name {
+          font-weight: normal;
+        }
+        .level {
+          font-style: normal;
+          font-size: 12px;
+          width: 15px;
+          height: 15px;
+          padding: 1px;
+          margin: 0 0 0 5px;
+          box-sizing: border-box;
+          background: red;
+          text-align: center;
+          vertical-align: middle;
+          color: #fff;
+          border-radius: 10px;
+          &.level-1 {
+            background: #376dc0;
+          }
+          &.level-2 {
+            background: #edd21e;
+          }
+          &.level-3 {
+            background: #dd8107;
+          }
+          &.level-4 {
+            background: #d14830;
+          }
+        }
+      }
+      &:hover {
+        background: red;
+        cursor: pointer;
+        background: #e9eff5;
+      }
+    }
+  }
+}
+.levels {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #fff;
+  border: #ccc;
+  .level {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    em {
+      width: 16px;
+      height: 16px;
+      text-indent: -9999px;
+      overflow: hidden;
+      margin: 0 5px 0 0;
+    }
+    strong {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+    }
+    &.level-1 {
+      justify-content: flex-end;
+      em {
+        background: #376dc0;
+      }
+    }
+    &.level-2 {
+      justify-content: flex-end;
+      em {
+        background: #edd21e;
+      }
+    }
+    &.level-3 {
+      em {
+        background: #dd8107;
+      }
+    }
+    &.level-4 {
+      em {
+        background: #d14830;
+      }
+    }
+  }
+}

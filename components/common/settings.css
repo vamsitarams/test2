@@ -1,0 +1,37 @@
+/*.MuiListItem-root{*/
+/*padding-top: 10px !important;*/
+/*padding-bottom: 10px !important;*/
+/*padding-left: 22px !important;*/
+/*}*/
+
+
+.list{
+    /* display: flex; */
+}
+.MuiListItem-gutters {
+    padding-left: 16px;
+    padding-right: 0px !important;
+}
+
+.appmenu{
+    height: 40px !important;
+}
+
+.MuiListItem-button:focus {
+    /* text-decoration: none; */
+    /* width: 219px !important; */
+    /* opacity: 80% !important; */
+    /* background-color: #FFFFFF !important; */
+    /* border-radius: 4px 0 0 4px !important; */
+    /* box-shadow: 0 2px 5px 0 rgba(83,97,255,0.12) !important; */
+}
+/* .activee:active{
+    background-color: brown !important;
+} */
+
+
+.selectItem {
+    border-left: 5px solid;
+    border-left-color: white;
+    background-color: rgba(83,97,255,0.12);
+}

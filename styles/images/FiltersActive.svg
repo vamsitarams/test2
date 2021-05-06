@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="27px" viewBox="0 0 38 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>BA6D6B1F-55E3-4AF9-8784-32AE3C8F8CC1</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1600" height="843" rx="14"></rect>
+        <filter x="-5.0%" y="-5.8%" width="110.0%" height="119.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="31" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="21.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0862745098   0 0 0 0 0.278431373   0 0 0 0 0.568627451  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-113.2%" y="-159.3%" width="326.3%" height="418.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0235294118   0 0 0 0 0.419607843   0 0 0 0 0.756862745  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flight-Board---Filters" transform="translate(-1557.000000, -204.000000)">
+            <g id="Body" transform="translate(99.000000, 177.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                    <use fill="#F0F3F8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+            </g>
+            <g id="Filters" transform="translate(1557.000000, 204.000000)" filter="url(#filter-4)">
+                <rect id="Rectangle" fill="#287FE0" x="0" y="0" width="38" height="27" rx="4"></rect>
+                <g id="Filter" transform="translate(9.000000, 4.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M7.5959107,9.45074613 C7.80771202,9.6791443 7.9239951,9.97750228 7.9239951,10.2861485 L7.9239951,19.3809227 C7.9239951,19.9282758 8.59054631,20.2060574 8.98507818,19.8212579 L11.5453824,16.9138108 C11.8880021,16.5063979 12.0769622,16.3047285 12.0769622,15.9014514 L12.0769622,10.2882061 C12.0769622,9.97955992 12.1953217,9.68120195 12.4050465,9.45278319 L19.7516245,1.55351912 C20.3018926,0.96091845 19.8783108,0 19.0643084,0 L0.936607272,0 C0.12262573,0 -0.303053393,0.958860809 0.249291225,1.55351912 L7.5959107,9.45074613 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

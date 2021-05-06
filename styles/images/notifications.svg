@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Notifications</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar-Menu-Collapsed-Settings-Companies" transform="translate(-27.000000, -661.000000)" fill="#FFFFFF">
+            <g id="Sidebar-items" transform="translate(0.000000, 27.000000)">
+                <g id="Submenu" transform="translate(26.000000, 475.000000)">
+                    <g id="Notifications" transform="translate(1.000000, 159.000000)">
+                        <rect id="Rectangle" x="0" y="2.52631579" width="13.4736842" height="11.7894737" rx="2"></rect>
+                        <circle id="Oval" stroke="#154690" cx="11.7894737" cy="4.21052632" r="3.71052632"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

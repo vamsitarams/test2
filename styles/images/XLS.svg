@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="80px" viewBox="0 0 69 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>1577AF9C-8236-47E5-BAC3-1BE8B18F1B7B</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#1ABF74" offset="0%"></stop>
+            <stop stop-color="#009F57" offset="100%"></stop>
+        </linearGradient>
+        <path d="M40,0 L56.8619288,0 C62.0165865,0 66.6666667,4.65008019 66.6666667,9.80473785 L66.6666667,26.6666667 L40,0 Z" id="path-2"></path>
+        <filter x="-15.0%" y="-22.5%" width="130.0%" height="130.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0909637238 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flight-Board---Export" transform="translate(-1401.000000, -306.000000)">
+            <g id="Export-Menu" transform="translate(1353.000000, 244.000000)">
+                <g id="XLS" transform="translate(48.000000, 62.000000)">
+                    <g id="PDF">
+                        <path d="M40,0 L66.6666667,26.6666667 L66.6666667,70.6666667 C66.6666667,75.8213243 62.487991,80 57.3333333,80 L9.33333333,80 C4.17867567,80 0,75.8213243 0,70.6666667 L0,9.33333333 C0,4.17867567 4.17867567,0 9.33333333,0 L40,0 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                        <g id="Path" transform="translate(53.333333, 13.333333) scale(-1, -1) translate(-53.333333, -13.333333) ">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill-opacity="0.4" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                    <g id="表格图" transform="translate(13.333333, 33.333333)" fill="#FFFFFF" fill-rule="nonzero">
+                        <path d="M26.642119,0.0106188341 L26.6419351,0.0316188341 L26.6499253,0.0320478326 L26.6499253,26.6652317 L24.4304933,26.6652317 L24.4299351,26.6616188 L17.7559351,26.6616188 L17.7568909,26.6652317 L15.5374589,26.6652317 L15.5369351,26.6616188 L11.1439351,26.6616188 L11.1445142,26.6652317 L8.92508221,26.6652317 L8.92493513,26.6616188 L2.23593513,26.6616188 L2.23617339,26.6652317 L0.0167414051,26.6652317 L0.0159351271,26.6616188 L0.0121494768,26.6624765 L0.0121494768,24.4430445 L0.0159351271,24.4426188 L0.0159351271,17.7366188 L0.0106188341,17.7371456 L0.0106188341,15.5177136 L0.0159351271,15.5176188 L0.0159351271,8.81161883 L0.00893512706,8.81181465 L0.00893512706,6.59238266 L0.0159351271,6.59161883 L0.0159351271,2.22961883 L0.00893512706,2.23005082 L0.00893512706,0.0106188341 L26.642119,0.0106188341 Z M8.92493513,17.7366188 L2.23593513,17.7366188 L2.23593513,24.4426188 L8.92493513,24.4426188 L8.92493513,17.7366188 Z M15.5369351,17.7366188 L11.1439351,17.7366188 L11.1439351,24.4426188 L15.5369351,24.4426188 L15.5369351,17.7366188 Z M24.4299351,17.7366188 L17.7559351,17.7366188 L17.7559351,24.4426188 L24.4299351,24.4426188 L24.4299351,17.7366188 Z M8.92493513,8.81161883 L2.23593513,8.81161883 L2.23593513,15.5176188 L8.92493513,15.5176188 L8.92493513,8.81161883 Z M15.5369351,8.81161883 L11.1439351,8.81161883 L11.1439351,15.5176188 L15.5369351,15.5176188 L15.5369351,8.81161883 Z M24.4299351,8.81161883 L17.7559351,8.81161883 L17.7559351,15.5176188 L24.4299351,15.5176188 L24.4299351,8.81161883 Z M24.4299351,2.22961883 L2.23593513,2.22961883 L2.23593513,6.59161883 L24.4299351,6.59161883 L24.4299351,2.22961883 Z" id="Combined-Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+.root-page{
+    display: flex;
+    flex-direction: column;
+    height: 407px;
+    width: 740px;
+    color: #8E8F93;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 37px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}

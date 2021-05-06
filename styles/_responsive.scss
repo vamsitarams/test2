@@ -1,0 +1,20 @@
+@media only screen and (max-width : 1170px) {
+  .filter-travelers .cust-holder {
+    @include clearfix();
+    padding-left:0;
+    clear: both;
+    float: none;
+  }
+  .side-menu-opened{
+    .filter-travelers .Select{
+      width: 200px;
+    }
+  }
+}
+@media only screen and (max-width : 1000px) {
+  .filter-travelers .holder{
+    @include clearfix();
+    clear: both;
+    float: none;
+  }
+}

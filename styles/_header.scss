@@ -1,0 +1,394 @@
+.header {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  // background-color: #154690;
+  // align-items: center;
+  // position: fixed;
+  // z-index: 1002;
+  // height: $header-height;
+  // background: $base-bg-color;
+  // color: $white-color;
+  // padding: 0 10px;
+  // top: 0;
+  // left: 240px;
+  // right: 0;
+
+
+  .col {
+    display: flex;
+    align-items: left;
+    padding: 0 !important;
+  }
+
+//   a {
+//     color: $white-color;
+//   }
+
+//   .logo {
+//     @include hide-text();
+//     width: 43px;
+//     height: 42px;
+//     background: no-repeat url("images/logo.png");
+//   }
+
+//   .user-holder {
+//     display: flex;
+//     min-width: 145px;
+//     justify-content: flex-end;
+//     margin-left: 5px;
+//   }
+
+  .user-actions {
+    display: flex;
+    justify-self: start;
+    justify-content: left;
+    text-align: left !important;
+    // padding-left: 10px;
+  }
+}
+
+//   .btn-logout {
+//     @include hide-text();
+//     width: 17px;
+//     height: $font-size-s;
+//     display: inline-block;
+//     background: url("images/icon-sprites.png") no-repeat -419px -14px;
+//     border: none;
+//     margin: 0 0 0 14px;
+//     padding: 0;
+//     vertical-align: middle;
+
+//     &:hover {
+//       cursor: pointer;
+//     }
+//   }
+
+//   .search-block {
+//     margin-left: 12px;
+//   }
+// }
+
+// .header-main-menu,
+// .header-menu  {
+//   margin-left: 12px;
+//   font-size: $font-size-s;
+//   display: flex;
+
+//   .nav {
+//     @include reset-list();
+//     display: flex;
+//   }
+
+//   a {
+//     display: flex;
+//     padding: 10px;
+//     height: $header-height;
+//     align-items: center;
+//     text-decoration: none;
+//     white-space: nowrap;
+
+//     &.active,
+//     &:hover {
+//       background-color: $active-main-nav-color;
+//     }
+//   }
+
+//   & + .header-menu {
+//     margin-left: 0;
+//   }
+// }
+
+// .header-menu {
+//   float: right;
+// }
+
+// .last-messages-block {
+//   position: relative;
+//   float: right;
+//   width: 54px;
+//   height: 56px;
+
+//   &:before {
+//     content: '';
+//     width: 20px;
+//     height: 18px;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     margin: -6px 0 0 -10px;
+//     background: url("images/icon-sprites.png") no-repeat -374px -13px;
+//   }
+
+//   .unread-messages-length {
+//     position: absolute;
+//     top: 10px;
+//     left: 9px;
+//     width: auto;
+//     min-width: 17px;
+//     padding: 2px 2px 3px;
+//     height: auto;
+//     font-size: $font-size-xxs + 2;
+//     font-weight: $fw-bold;
+//     text-align: center;
+//     border-radius: 50%;
+//     color: $base-bg-color;
+//     background-color: $blue-color;
+//   }
+
+//   .last-messages-drop {
+//     color: $primary-text-color;
+//     position: absolute;
+//     background: $white-color;
+//     box-shadow: $popup-shadow;
+//     border-radius: 4px;
+//     top: 94%;
+//     left: -170px;
+//     width: 394px;
+//     display: none;
+
+//     h3 {
+//       font-size: $font-size-xs;
+//       font-weight: $fw-bold;
+//       color: $primary-text-color;
+//       margin: 0;
+//       padding: 8px 10px;
+//     }
+
+//     h4 {
+//       font-size: $font-size-xs;
+//       font-weight: $fw-regular;
+//       color: $primary-text-color;
+//       margin: 0;
+//       padding: 5px 10px;
+//       background: lighten(saturate(adjust-hue($gray-color, -12.8571), 1.2520), 10.3922);
+//       border-top: 1px solid lighten(saturate(adjust-hue($gray-color, -2.8571), 2.1408), 9.0196);
+//     }
+
+//     .area {
+//       overflow: auto;
+//       max-height: 345px;
+//     }
+
+//     .travelers-name {
+//       font-weight: $fw-semi-bold;
+//     }
+
+//     .organization {
+//       font-weight: $fw-semi-bold;
+//     }
+
+//     .message-holder {
+//       min-height: 24px;
+//       padding: 7px 10px;
+//       overflow: hidden;
+//       border-top: 1px solid lighten(saturate(adjust-hue($gray-color, -2.8571), 2.1408), 9.0196);
+
+//       .helped-block {
+//         float: right;
+//         max-width: 90px;
+//       }
+//       .traveler-info {
+//         overflow: hidden;
+//       }
+//       .icon {
+//         display: inline-block;
+//         margin-right: 10px;
+//         vertical-align: middle;
+//         @extend %icon-min;
+//       }
+//       .info-item {
+//         display: inline-block;
+//         vertical-align: middle;
+//         max-width: calc(100% - #{26px});
+//       }
+//       .vip {
+//         @extend %vip-min;
+//         vertical-align: baseline;
+//       }
+//       .message-icon {
+//         display: block;
+//         font-style: normal;
+//         font-size: $font-size-xs;
+//         padding-top: 5px;
+
+//         span {
+//           display: inline-block;
+//           vertical-align: baseline;
+//           overflow: hidden;
+//         }
+
+//         .message-text {
+//           max-width: 86%;
+//           text-overflow: ellipsis;
+//           padding-right: 5px;
+//           white-space: nowrap;
+//           color: darken(saturate(adjust-hue($gray-color, -4.6753), 3.8908), 17.4510);
+//         }
+
+//         .timeAgo {
+//           color: $link-color;
+//         }
+//       }
+//     }
+
+//     &:after {
+//       bottom: 100%;
+//       left: 50%;
+//       border: solid transparent;
+//       content: " ";
+//       height: 0;
+//       width: 0;
+//       position: absolute;
+//       pointer-events: none;
+//       border-color: rgba(255, 255, 255, 0);
+//       border-bottom-color: #fff;
+//       border-width: 5px;
+//       margin-left: -5px;
+//     }
+
+//     a {
+//       color: $primary-text-color;
+//     }
+//   }
+//   &.has-messages {
+//     &:hover {
+//       .last-messages-drop {
+//         display: block;
+//       }
+//     }
+//   }
+// }
+
+// .header-dropdown {
+//   display: flex;
+
+//   .dd-menu-items {
+//     top: $header-height - 12px;
+//     width: 140px;
+
+//     .dd-items-center {
+//       position: relative;
+//       padding: 4px 0;
+//       border-radius: $small-border-radius;
+
+//       &:before {
+//         content: '';
+//         display: block;
+//         width: 0;
+//         height: 0;
+//         position: absolute;
+//         border-bottom: 5px solid white;
+//         border-left: 5px solid transparent;
+//         border-right: 5px solid transparent;
+//         left: 64px;
+//         top: -5px;
+//       }
+//     }
+
+//     br {
+//       display: none;
+//     }
+
+//     a {
+//       text-align: left !important;
+//       cursor: pointer;
+//       padding: 10px 12px !important;
+//       color: black;
+
+//       &:hover {
+//         background-color: #EDF7FC !important;
+//         text-decoration: none;
+//       }
+
+//       &.active {
+//         background-color: #EDF7FC !important;
+//       }
+//     }
+
+//     li,
+//     .company-admin-menu,
+//     .global-admin-menu,
+//     .agent-admin-menu {
+//       text-align: left;
+//       display: flex;
+//       flex-direction: column;
+//     }
+//   }
+// }
+
+// .status-cntr {
+//   display: flex;
+//   .header-status_btn {
+//     display: flex;
+//     align-items: center;
+//     color: $status-green-color;
+//     cursor: pointer;
+//     position: relative;
+//     left: -4px;
+//     padding: 1px 6px 1px 4px;
+
+//     &.active {
+//       background-color: #313E5D;
+//       border-radius: $small-border-radius;
+//     }
+
+//     &:after {
+//       content: '';
+//       display: block;
+//       position: relative;
+//       left: 3px;
+//       width: 0;
+//       height: 0;
+//       border-left: 4px solid transparent;
+//       border-right: 4px solid transparent;
+//       border-top: 4px solid rgba(157, 165, 177, 1);
+//     }
+//   }
+
+//   .dd-menu-items {
+//     top: $header-height - 40px;
+//     width: 120px;
+
+//     .dd-items-center:before {
+//       left: 54px;
+//     }
+//   }
+
+//   .green-link {
+//     color: $status-green-color !important;
+//   }
+
+//   .red-link {
+//     color: $status-red-color !important;
+//   }
+
+//   .grey-link {
+//     color: #6C6D6F !important;
+//   }
+// }
+
+// .header-settings {
+//   display: flex;
+//   align-items: center;
+//   padding: 8px;
+//   position: relative;
+
+//   &_btn {
+//     height: $header-height;
+//     width: 45px;
+//     background: url("images/icon-settings.png") no-repeat center center;
+//     background-size: 23px;
+//     cursor: pointer;
+
+//     &:hover,
+//     &.active {
+//       background-color: $active-main-nav-color;
+//     }
+//   }
+// }
+
+// .nav{
+//   display: flex;
+//   flex-wrap: nowrap  !important;
+// }

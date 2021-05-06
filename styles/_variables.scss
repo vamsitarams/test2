@@ -1,0 +1,71 @@
+$sidevar-closed-width: 46px;
+$sidevar-opened-width: 190px;
+$left-col-width: 437px;
+
+$header-height: 56px;
+
+$white-color: #fff;
+$black-color: #000;
+$gray-color: #d8dadf;
+$blue-color: #3db1e6;
+$yellow-color: #ffff00;
+$green-color: #5ca93a;
+
+$base-bg-color: #404f66;
+
+$alarm-color: #f25050;
+$warning-color: #ffb700;
+$ok-color: #49bf78;
+$updated-color: #EDF7FC;
+
+$disabled-color: #e0e1e3;
+$disabled-text-color: #979aa1;
+
+$primary-text-color: #33333b;
+$secondary-text-color: #979aa1;
+$link-color: #3db1e6;
+
+$sidebar-text-color: lighten(desaturate(adjust-hue($base-bg-color, 1.8660), 9.1416), 36.0784);
+$sidebar-link-color: lighten(desaturate(adjust-hue($base-bg-color, 10.3509), 2.8916), 58.6275);
+
+//Priority 1 button
+$btn1-bg: #4C93FF;
+//Priority 2 button
+$btn2-bg: #dde3ed;
+//Priority 3 button
+$btn3-border: #dde3ed;
+$btn3-blue-border: #c3e6f6;
+
+$base-font: 'Open Sans', sans-serif;
+
+$font-size-default: 14px;
+$font-size-s: ($font-size-default) - 1;
+$font-size-xs: ($font-size-default) - 2;
+$font-size-xxs: 8px;
+$font-size-l: ($font-size-default) + 2;
+
+$font-size-h1: ($font-size-default) + 8;
+$font-size-h2: ($font-size-default) + 2;
+
+$line-height-s: 1;
+$line-height-default: 1.2;
+$line-height-l: 1.4;
+$line-height-xl: 1.5;
+
+$fw-light: 300;
+$fw-regular: 400;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-extra-bold: 800;
+
+$popup-shadow: 0 6px 6px 3px rgba(0, 0, 0, .1);
+
+//login colors
+$bg-login: #404f66;
+$bg-login-box: #f5f6f7;
+
+$active-main-nav-color: #677C98;
+$small-border-radius: 2px;
+
+$status-green-color: #5EC53E;
+$status-red-color: #FF5858;

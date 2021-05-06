@@ -1,0 +1,423 @@
+@import '../../styles/variables';
+@import '../../styles/mixins';
+
+.settings-container {
+  display: flex;
+  position: relative;
+
+  .loading-holder {
+    top: $header-height;
+  }
+}
+
+.settings-body {
+  padding: 26px;
+  width: 100%;
+  overflow: scroll;
+
+  .page-content {
+    padding: 0;
+    margin: 0;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #070F29;
+  }
+}
+
+.filter-container {
+  max-width: 750px;
+  width: 100%;
+}
+
+.settings-tabs__container {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  background-color: #DADEE4;
+
+  .company-admin-menu,
+  .global-admin-menu,
+  .agent-admin-menu,
+  .settings-tabs {
+    @include reset-list();
+
+    br {
+      display: none;
+    }
+
+    a {
+      position: relative;
+      display: block;
+      width: 100%;
+      padding: 13px 20px;
+      color: #33333B;
+
+      &:hover,
+      &.active {
+        text-decoration: none;
+        background: #CBD0D7;
+      }
+
+      &.active {
+        &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          display: block;
+          height: 100%;
+          width: 6px;
+          background: #3DB1E6;
+        }
+      }
+    }
+  }
+}
+
+.global-filter-field-cnt {
+  padding: 30px;
+
+  &__title {
+    margin-bottom: 36px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #070F29;
+    line-height: 27px;
+  }
+
+  & + .global-filter-field-cnt {
+    border-top: 1px solid #E4E6E9;
+  }
+}
+.filter-card{
+    background: white;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 12px 44px rgba(22,71,145,0.16);
+    &.notification-card{
+      padding: 40px;
+      width: 385px;
+      label{
+        font-size: 16px;
+        line-height: 22px;
+        color:#33333B;
+      }
+    input:not(checked) + label:before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border: 1px solid #066BC1;;
+    border-radius: 1px;
+    }
+    .radio-cnt{
+      input:not(checked) + label:before {
+        border-radius: 50%;
+      }
+      input:not(checked) + label:after {
+    top: 4px;
+    left: 5px;
+    width: 12px;
+    height: 12px;
+    }
+    }
+    .form-control:disabled, .form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 0;
+    }
+    }
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.checkbox-group {
+  display: flex;
+  justify-content: flex-start;
+
+  &_cols {
+    flex-direction: column;
+  }
+
+  .label-cnt {
+    width: 140px;
+    h4 {
+      margin: 0;
+      margin: 0;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+      color: #070F29;
+    }
+  }
+
+  .cust-cb {
+    div {
+      position: relative;
+      & + div {
+        margin-top: 10px;
+      }
+    }
+    .child-label{
+      input:not(checked) + label:before{
+        top: -2px;
+        left: -10px;
+      }
+      label:after {
+        top: 2px;
+        left: 17px;
+      }
+    }
+  }
+
+  & + .checkbox-group {
+    margin-top: 30px;
+  }
+
+  .sub-checkbox-group {
+    padding-left: 30px;
+  }
+}
+
+.radio-cnt {
+  margin: 8px 0;
+  padding-left: 30px;
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+
+    .cust-rb + .cust-rb {
+      margin-top: 8px;
+    }
+  }
+}
+
+.select-cnt {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+
+  &__label {
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #070F29;
+  }
+
+  .Select-control, .Select-input>input {
+    width: 120px;
+  }
+
+  & + .checkbox-group {
+    margin-top: 30px;
+  }
+  .Select-control{
+    border-color: #154690;
+  }
+}
+
+.btn-cnt {
+  padding: 10px 50px 30px 50px;
+  display: flex;
+  justify-content: flex-start;
+  &.btn-group-align{
+    padding: 10px 50px 30px 20px;
+  }
+  .btn {
+    background: none;
+    border: none;
+    border-radius: $small-border-radius;
+    padding: 8px 28px;
+
+    &:hover {
+      opacity: .8;
+    }
+
+    &_transparent {
+      border: 1px solid #C9CED6;
+
+      &[disabled] {
+        color: #C9CED6;
+        opacity: .8;
+      }
+    }
+
+    &_blue {
+      background-color: #87CCEC;
+
+      &[disabled] {
+        background: #C9CED6;
+        opacity: .8;
+      }
+    }
+
+    & + .btn {
+      margin-left: 15px;
+    }
+  }
+  .btn-user-disabled{
+    background: #DFDFDF !important;
+    border-radius: 13px !important;
+    border: 1px solid #dde3ed !important;
+    padding: 9px!important;
+    color: #595B60 !important;
+  }
+  .btn-add-user{
+    border-radius: 12px !important;
+    background: #E0E1E3 !important;
+  }
+}
+
+.airport-within {
+  label {
+    position: relative;
+    padding: 0px 0 0 37px !important;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 6px;
+      height: 6px;
+      position: absolute;
+      left: 26px;
+      top: 6px;
+      border-radius: 3px;
+    }
+
+    &[for="blackAirportStatus"] {
+      &:after {
+        background: black;
+      }
+    }
+
+    &[for="redAirportStatus"] {
+      &:after {
+        background-color: #F72323;
+      }
+    }
+
+    &[for="yellowAirportStatus"] {
+      &:after {
+        background-color: #F4D711;
+      }
+    }
+
+    &[for="greenAirportStatus"] {
+      &:after {
+        background-color: #3DBC56;
+      }
+    }
+    &[for="flightStatusChangeAll"] {
+      &:after {
+        background-color: #154690;
+      }
+    }
+    &[for="flightStatusChangeEarly"],&[for="flightStatusChangeOntime"], &[for="flightStatusChangeDelayGreen"]{
+      &:after {
+        background-color: #4BC07A;
+      }
+    }
+    &[for="flightStatusChangeAllDelayYellow"] {
+      &:after {
+        background-color: #FFB803;
+      }
+    }
+    &[for="flightStatusChangeAllDelayRed"],&[for="flightStatusChangeAllCancelled"] {
+      &:after {
+        background-color: #F25050;
+      }
+    }
+  }
+}
+.cust-cb {
+  label {
+    position: relative;
+    padding: 0px 0 0 37px !important;
+
+    &:after {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top:0px;
+      left: 20px;
+      border-radius: 50%;
+    }
+
+    &[for="black"] {
+      &:after {
+        background: black;
+      }
+    }
+
+    &[for="red"] {
+      &:after {
+        background-color: #F72323;
+      }
+    }
+
+    &[for="yellow"] {
+      &:after {
+        background-color: #F4D711;
+      }
+    }
+
+    &[for="green"] {
+      &:after {
+        background-color: #3DBC56;
+      }
+    }
+    &[for="early"] {
+      &:after {
+        background-color: #3DBC56;
+      }
+    }
+    &[for="ontime"] {
+      &:after {
+        background-color: #3DBC56;
+      }
+    }
+    &[for="delayGreen"] {
+      &:after {
+        background-color: #3DBC56;
+      }
+    }
+    &[for="delayYellow"] {
+      &:after {
+        background-color: #F4D711;
+      }
+    }
+     &[for="delayRed"] {
+      &:after {
+        background-color: #F72323;
+      }
+    }
+    &[for="cancelled"] {
+      &:after {
+        background-color: #F72323;
+      }
+    }
+  }
+}
+.btn-cnt{
+  .btn{
+    &_blu{
+    width: 240px;
+    height: 60px;
+  }
+  }
+}
+.inner-span{
+  padding-left: 10px;
+}

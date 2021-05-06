@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="77px" height="76px" viewBox="0 0 77 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Button Next</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="35.2941176" height="35.2941176" rx="10"></rect>
+        <filter x="-99.2%" y="-70.8%" width="298.3%" height="298.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.583389946   0 0 0 0 0.583389946   0 0 0 0 0.583389946  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pagination" transform="translate(-67.000000, 10.000000)">
+            <g id="Button-Next" transform="translate(87.705882, 0.000000)">
+                <g id="Button">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke="#6DC6FF" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0.5" width="34.2941176" height="34.2941176" rx="10"></rect>
+                </g>
+                <g id="Next" transform="translate(18.235294, 18.090909) scale(-1, 1) rotate(90.000000) translate(-18.235294, -18.090909) translate(10.294118, 14.000000)" fill="#4C93FF" fill-rule="nonzero">
+                    <polygon id="Path" points="0.240641711 0.240641711 7.94121257 7.94117647 15.6417112 0.240641711"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

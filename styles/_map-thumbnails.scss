@@ -1,0 +1,145 @@
+.map-thumbnails-holder {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: $small-border-radius;
+  border: 1px solid #8191A7;
+  width: 62px;
+}
+
+.map-thumbnails {
+  @include reset-list();
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+
+  &__area {
+    position: relative;
+    padding: 2px;
+    width: 60px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #708097;
+
+    &.active {
+      background-color: #708097;
+      color: white;
+    }
+
+    & + .map-thumbnails__area {
+      border-top: solid 1px #BDC2C7;
+    }
+  }
+
+  &.hidden {
+    .map-thumbnails__area:not(.active) {
+      display: none;
+    }
+
+    .map-thumbnails__area.active {
+      border-top: none;
+    }
+  }
+
+  &__area-title {
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+
+  &__spots-number {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    background: #44B1E2;
+    border-radius: 28px;
+    padding: 1px 5px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 14px;
+    color: white;
+  }
+
+  &__icon {
+    display: block;
+    width: 50px;
+    height: 48px;
+    background-image: url("./images/icon-thumbnails-sprite.png");
+    background-size: 190px;
+
+    &.africa {
+      width: 45px;
+      background-position: 2px 4px;
+
+      &.active {
+        background-position: -36px 4px;
+      }
+    }
+
+    &.oceania {
+      background-position: -78px -83px;
+
+      &.active {
+        background-position: -141px 3px;
+      }
+    }
+
+    &.asia {
+      background-position: -95px 7px;
+
+      &.active {
+        background-position: 2px -35px;
+      }
+    }
+
+    &.europe {
+      background-position: -40px -37px;
+
+      &.active {
+        background-position: -87px -37px;
+      }
+    }
+
+    &.samerica {
+      background-position: -128px -44px;
+
+      &.active {
+        background-position: -117px -91px;
+      }
+    }
+
+    &.namerica {
+      background-position: 6px -83px;
+
+      &.active {
+        background-position: -33px -83px;
+      }
+    }
+  }
+
+  &__toggle-btn {
+    border: none;
+    border-bottom: 1px solid #BDC2C7;
+    background: none;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__icon-arrow {
+    display: block;
+    width: 36px;
+    height: 16px;
+    background: url("./images/icon-thumbnails-sprite.png") no-repeat -140px -5px;
+    transform: scale(.6);
+
+    &.top {
+      transform: scale(.6) rotate(180deg);
+    }
+  }
+}

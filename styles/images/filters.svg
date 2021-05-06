@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Filter</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar-Menu-Collapsed-Settings-Companies" transform="translate(-27.000000, -622.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Sidebar-items" transform="translate(0.000000, 27.000000)">
+                <g id="Submenu" transform="translate(26.000000, 475.000000)">
+                    <g id="Filter" transform="translate(1.000000, 120.000000)">
+                        <path d="M6.07672856,7.5605969 C6.24616962,7.74331544 6.33919608,7.98200183 6.33919608,8.22891877 L6.33919608,15.5047381 C6.33919608,15.9426206 6.87243705,16.1648459 7.18806254,15.8570063 L9.23630589,13.5310487 C9.51040172,13.2051183 9.66156972,13.0437828 9.66156972,12.7211611 L9.66156972,8.23056488 C9.66156972,7.98364794 9.75625737,7.74496156 9.92403724,7.56222656 L15.8012996,1.2428153 C16.2415141,0.76873476 15.9026486,0 15.2514468,0 L0.749285817,0 C0.0981005837,0 -0.242442715,0.767088647 0.19943298,1.2428153 L6.07672856,7.5605969 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

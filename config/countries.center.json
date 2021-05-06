@@ -1,0 +1,834 @@
+[
+	{
+		"country": "Afghanistan",
+		"coords": [69.183333, 34.51666667]
+	},
+	{
+		"country": "Albania",
+		"coords": [19.816667, 41.31666667]
+	},
+	{
+		"country": "Algeria",
+		"coords": [3.05, 36.75]
+	},
+	{
+		"country": "Andorra",
+		"coords": [1.516667, 42.5]
+	},
+	{
+		"country": "Angola",
+		"coords": [13.216667, -8.833333333]
+	},
+	{
+		"country": "Anguilla",
+		"coords": [-63.05, 18.21666667]
+	},
+	{
+		"country": "Antarctica",
+		"coords": [0, 0]
+	},
+	{
+		"country": "Antigua and Barbuda",
+		"coords": [-61.85, 17.11666667]
+	},
+	{
+		"country": "Argentina",
+		"coords": [-58.666667, -34.58333333]
+	},
+	{
+		"country": "Armenia",
+		"coords": [44.5, 40.16666667]
+	},
+	{
+		"country": "Aruba",
+		"coords": [-70.033333, 12.51666667]
+	},
+	{
+		"country": "Australia",
+		"coords": [149.133333, -35.26666667]
+	},
+	{
+		"country": "Austria",
+		"coords": [16.366667, 48.2]
+	},
+	{
+		"country": "Azerbaijan",
+		"coords": [49.866667, 40.38333333]
+	},
+	{
+		"country": "Bahrain",
+		"coords": [50.566667, 26.23333333]
+	},
+	{
+		"country": "Bangladesh",
+		"coords": [90.4, 23.71666667]
+	},
+	{
+		"country": "Barbados",
+		"coords": [-59.616667, 13.1]
+	},
+	{
+		"country": "Belarus",
+		"coords": [27.566667, 53.9]
+	},
+	{
+		"country": "Belgium",
+		"coords": [4.333333, 50.83333333]
+	},
+	{
+		"country": "Belize",
+		"coords": [-88.766667, 17.25]
+	},
+	{
+		"country": "Benin",
+		"coords": [2.616667, 6.483333333]
+	},
+	{
+		"country": "Bermuda",
+		"coords": [-64.783333, 32.28333333]
+	},
+	{
+		"country": "Bhutan",
+		"coords": [89.633333, 27.46666667]
+	},
+	{
+		"country": "Bolivia",
+		"coords": [-68.15, -16.5]
+	},
+	{
+		"country": "Bonaire, St. Eustatius, and Saba (BES)",
+		"coords": [-68.2624, 12.2019]
+	},
+	{
+		"country": "Bosnia-Herzegovina",
+		"coords": [18.416667, 43.86666667]
+	},
+	{
+		"country": "Botswana",
+		"coords": [25.9, -24.63333333]
+	},
+	{
+		"country": "Brazil",
+		"coords": [-47.916667, -15.78333333]
+	},
+	{
+		"country": "British Virgin Islands",
+		"coords": [-64.616667, 18.41666667]
+	},
+	{
+		"country": "Brunei",
+		"coords": [114.933333, 4.883333333]
+	},
+	{
+		"country": "Bulgaria",
+		"coords": [23.316667, 42.68333333]
+	},
+	{
+		"country": "Burkina Faso",
+		"coords": [-1.516667, 12.36666667]
+	},
+	{
+		"country": "Burma",
+		"coords": [96.15, 16.8]
+	},
+	{
+		"country": "Burundi",
+		"coords": [29.35, -3.366666667]
+	},
+	{
+		"country": "Cabo Verde",
+		"coords": [-23.516667, 14.91666667]
+	},
+	{
+		"country": "Cambodia",
+		"coords": [104.916667, 11.55]
+	},
+	{
+		"country": "Cameroon",
+		"coords": [11.516667, 3.866666667]
+	},
+	{
+		"country": "Canada",
+		"coords": [-79.37416517, 48.639330776]
+	},
+	{
+		"country": "Cayman Islands",
+		"coords": [11.516667, 19.3]
+	},
+	{
+		"country": "Central African Republic (CAR)",
+		"coords": [18.583333, 4.366666667]
+	},
+	{
+		"country": "Chad",
+		"coords": [15.033333, 412.1]
+	},
+	{
+		"country": "Chile",
+		"coords": [-70.666667, -33.45]
+	},
+	{
+		"country": "China",
+		"coords": [116.383333, 39.91666667]
+	},
+	{
+		"country": "Colombia",
+		"coords": [-74.083333, 4.6]
+	},
+	{
+		"country": "Comoros",
+		"coords": [43.233333, -11.7]
+	},
+	{
+		"country": "Congo-Brazzaville (ROC)",
+		"coords": [15.283333, -4.25]
+	},
+	{
+		"country": "Congo-Kinshasha (DRC)",
+		"coords": [15.3, -4.316666667]
+	},
+	{
+		"country": "Costa Rica",
+		"coords": [-84.083333, 9.933333333]
+	},
+	{
+		"country": "Cote d\"Ivoire",
+		"coords": [-5.266667, 6.816666667]
+	},
+	{
+		"country": "Croatia",
+		"coords": [16, 45.8]
+	},
+	{
+		"country": "Cuba",
+		"coords": [-82.35, 23.11666667]
+	},
+	{
+		"country": "Curacao",
+		"coords": [-68.916667, 12.1]
+	},
+	{
+		"country": "Cyprus",
+		"coords": [33.366667, 35.16666667]
+	},
+	{
+		"country": "Czech Republic",
+		"coords": [14.466667, 50.08333333]
+	},
+	{
+		"country": "Denmark",
+		"coords": [12.583333, 55.66666667]
+	},
+	{
+		"country": "Djibouti",
+		"coords": [43.15, 11.58333333]
+	},
+	{
+		"country": "Dominican Republic",
+		"coords": [-69.9, 18.46666667]
+	},
+	{
+		"country": "Dominica",
+		"coords": [-61.4, 15.3]
+	},
+	{
+		"country": "Ecuador",
+		"coords": [-78.5, -0.216666667]
+	},
+	{
+		"country": "Egypt",
+		"coords": [31.25, 30.05]
+	},
+	{
+		"country": "El Salvador",
+		"coords": [-89.2, 13.7]
+	},
+	{
+		"country": "Equatorial Guinea",
+		"coords": [8.783333, 3.75]
+	},
+	{
+		"country": "Eritrea",
+		"coords": [38.933333, 15.33333333]
+	},
+	{
+		"country": "Estonia",
+		"coords": [24.716667, 59.43333333]
+	},
+	{
+		"country": "Ethiopia",
+		"coords": [38.7, 9.033333333]
+	},
+	{
+		"country": "Fiji",
+		"coords": [178.416667, -18.13333333]
+	},
+	{
+		"country": "Finland",
+		"coords": [24.933333, 60.16666667]
+	},
+	{
+		"country": "France",
+		"coords": [2.333333, 48.86666667]
+	},
+	{
+		"country": "French Guiana",
+		"coords": [-53.1258, 3.9339]
+	},
+	{
+		"country": "French Polynesia",
+		"coords": [-149.566667, -17.53333333]
+	},
+	{
+		"country": "French West Indies",
+		"coords": [-61.551, 16.265]
+	},
+	{
+		"country": "Gabon",
+		"coords": [9.45, 0.383333333]
+	},
+	{
+		"country": "Georgia",
+		"coords": [44.833333, 41.68333333]
+	},
+	{
+		"country": "Germany",
+		"coords": [13.4, 52.51666667]
+	},
+	{
+		"country": "Ghana",
+		"coords": [-0.216667, 5.55]
+	},
+	{
+		"country": "Greece",
+		"coords": [23.733333, 37.98333333]
+	},
+	{
+		"country": "Grenada",
+		"coords": [-61.75, 12.05]
+	},
+	{
+		"country": "Guatemala",
+		"coords": [-90.516667, 14.61666667]
+	},
+	{
+		"country": "Guinea",
+		"coords": [-13.7, 9.5]
+	},
+	{
+		"country": "Guinea-Bissau",
+		"coords": [-15.583333, 11.85]
+	},
+	{
+		"country": "Guyana",
+		"coords": [-58.15, 6.8]
+	},
+	{
+		"country": "Haiti",
+		"coords": [-72.333333, 18.53333333]
+	},
+	{
+		"country": "Honduras",
+		"coords": [-87.216667, 14.1]
+	},
+	{
+		"country": "Hong Kong",
+		"coords": [114.1095, 22.3964]
+	},
+	{
+		"country": "Hungary",
+		"coords": [19.083333, 47.5]
+	},
+	{
+		"country": "Iceland",
+		"coords": [-21.95, 64.15]
+	},
+	{
+		"country": "India",
+		"coords": [77.2, 28.6]
+	},
+	{
+		"country": "Indonesia",
+		"coords": [106.816667, -6.166666667]
+	},
+	{
+		"country": "Iran",
+		"coords": [51.416667, 35.7]
+	},
+	{
+		"country": "Iraq",
+		"coords": [44.4, 33.33333333]
+	},
+	{
+		"country": "Ireland",
+		"coords": [-6.233333, 53.31666667]
+	},
+	{
+		"country": "Israel, The West Bank, and Gaza",
+		"coords": [35.233333, 31.76666667]
+	},
+	{
+		"country": "Italy",
+		"coords": [12.483333, 41.9]
+	},
+	{
+		"country": "Jamaica",
+		"coords": [-76.8, 18]
+	},
+	{
+		"country": "Japan",
+		"coords": [139.75, 35.68333333]
+	},
+	{
+		"country": "Jordan",
+		"coords": [35.933333, 31.95]
+	},
+	{
+		"country": "Kazakhstan",
+		"coords": [71.416667, 51.16666667]
+	},
+	{
+		"country": "Kenya",
+		"coords": [36.816667, -1.283333333]
+	},
+	{
+		"country": "Kiribati",
+		"coords": [169.533333, -0.883333333]
+	},
+	{
+		"country": "Kosovo",
+		"coords": [21.166667, 42.66666667]
+	},
+	{
+		"country": "Kuwait",
+		"coords": [47.966667, 29.36666667]
+	},
+	{
+		"country": "Kyrgyzstan",
+		"coords": [74.6, 42.86666667]
+	},
+	{
+		"country": "Laos",
+		"coords": [102.6, 17.96666667]
+	},
+	{
+		"country": "Latvia",
+		"coords": [24.1, 56.95]
+	},
+	{
+		"country": "Lebanon",
+		"coords": [35.5, 33.86666667]
+	},
+	{
+		"country": "Lesotho",
+		"coords": [27.483333, -29.31666667]
+	},
+	{
+		"country": "Liberia",
+		"coords": [-10.8, 6.3]
+	},
+	{
+		"country": "Libya",
+		"coords": [13.166667, 32.88333333]
+	},
+	{
+		"country": "Lithuania",
+		"coords": [25.316667, 54.68333333]
+	},
+	{
+		"country": "Luxembourg",
+		"coords": [6.116667, 49.6]
+	},
+	{
+		"country": "Macau",
+		"coords": [113.5439, 22.1987]
+	},
+	{
+		"country": "Macedonia",
+		"coords": [21.433333, 42]
+	},
+	{
+		"country": "Madagascar",
+		"coords": [47.516667, -18.91666667]
+	},
+	{
+		"country": "Malawi",
+		"coords": [33.783333, -13.96666667]
+	},
+	{
+		"country": "Malaysia",
+		"coords": [33.783333, -13.96666667]
+	},
+	{
+		"country": "Maldives",
+		"coords": [73.5, 4.166666667]
+	},
+	{
+		"country": "Mali",
+		"coords": [-8, 12.65]
+	},
+	{
+		"country": "Malta",
+		"coords": [14.5, 35.88333333]
+	},
+	{
+		"country": "Marshall Islands",
+		"coords": [171.383333, 7.1]
+	},
+	{
+		"country": "Mauritania",
+		"coords": [-15.966667, 18.06666667]
+	},
+	{
+		"country": "Mauritius",
+		"coords": [57.483333, -20.15]
+	},
+	{
+		"country": "Mexico",
+		"coords": [-99.133333, 19.43333333]
+	},
+	{
+		"country": "Micronesia",
+		"coords": [150.5508, 7.4256]
+	},
+	{
+		"country": "Moldova",
+		"coords": [28.85, 47]
+	},
+	{
+		"country": "Mongolia",
+		"coords": [106.916667, 47.91666667]
+	},
+	{
+		"country": "Montenegro",
+		"coords": [19.266667, 42.43333333]
+	},
+	{
+		"country": "Montserrat",
+		"coords": [-62.216667, 16.7]
+	},
+	{
+		"country": "Morocco",
+		"coords": [-6.816667, 34.01666667]
+	},
+	{
+		"country": "Mozambique",
+		"coords": [32.583333, -25.95]
+	},
+	{
+		"country": "Namibia",
+		"coords": [17.083333, -22.56666667]
+	},
+	{
+		"country": "Nauru",
+		"coords": [166.920867, -0.5477]
+	},
+	{
+		"country": "Nepal",
+		"coords": [85.316667, 27.71666667]
+	},
+	{
+		"country": "Netherlands",
+		"coords": [4.916667, 52.35]
+	},
+	{
+		"country": "New Caledonia",
+		"coords": [166.45, -22.26666667]
+	},
+	{
+		"country": "New Zealand",
+		"coords": [174.783333, -41.3]
+	},
+	{
+		"country": "Nicaragua",
+		"coords": [-86.25, 12.13333333]
+	},
+	{
+		"country": "Niger",
+		"coords": [2.116667, 13.51666667]
+	},
+	{
+		"country": "Nigeria",
+		"coords": [7.533333, 9.083333333]
+	},
+	{
+		"country": "North Korea",
+		"coords": [125.75, 39.01666667]
+	},
+	{
+		"country": "Norway",
+		"coords": [10.75, 59.91666667]
+	},
+	{
+		"country": "Oman",
+		"coords": [58.583333, 23.61666667]
+	},
+	{
+		"country": "Pakistan",
+		"coords": [73.05, 33.68333333]
+	},
+	{
+		"country": "Palau",
+		"coords": [134.633333, 7.483333333]
+	},
+	{
+		"country": "Panama",
+		"coords": [-79.533333, 8.966666667]
+	},
+	{
+		"country": "Papua New Guinea",
+		"coords": [147.183333, -9.45]
+	},
+	{
+		"country": "Paraguay",
+		"coords": [-57.666667, -25.26666667]
+	},
+	{
+		"country": "Peru",
+		"coords": [-77.05, -12.05]
+	},
+	{
+		"country": "Philippines",
+		"coords": [120.966667, 14.6]
+	},
+	{
+		"country": "Poland",
+		"coords": [21, 52.25]
+	},
+	{
+		"country": "Portugal",
+		"coords": [-9.133333, 38.71666667]
+	},
+	{
+		"country": "Qatar",
+		"coords": [51.533333, 25.28333333]
+	},
+	{
+		"country": "Romania",
+		"coords": [26.1, 44.43333333]
+	},
+	{
+		"country": "Russia",
+		"coords": [37.6, 55.75]
+	},
+	{
+		"country": "Rwanda",
+		"coords": [30.05, -1.95]
+	},
+	{
+		"country": "Saint Kitts and Nevis",
+		"coords": [-62.716667, 17.3]
+	},
+	{
+		"country": "Saint Lucia",
+		"coords": [-61, 14]
+	},
+	{
+		"country": "Saint Vincent and the Grenadines",
+		"coords": [-61.216667, 13.13333333]
+	},
+	{
+		"country": "Samoa",
+		"coords": [-171.766667, -13.81666667]
+	},
+	{
+		"country": "Sao Tome & Principe",
+		"coords": [6.733333, 0.333333333]
+	},
+	{
+		"country": "Saudi Arabia",
+		"coords": [46.7, 24.65]
+	},
+	{
+		"country": "Senegal",
+		"coords": [-17.633333, 14.73333333]
+	},
+	{
+		"country": "Serbia",
+		"coords": [20.5, 44.83333333]
+	},
+	{
+		"country": "Seychelles",
+		"coords": [55.45, -4.616666667]
+	},
+	{
+		"country": "Sierra Leone",
+		"coords": [-13.233333, 8.483333333]
+	},
+	{
+		"country": "Singapore",
+		"coords": [103.85, 1.283333333]
+	},
+	{
+		"country": "Sint Maarten",
+		"coords": [-63.033333, 18.01666667]
+	},
+	{
+		"country": "Slovakia",
+		"coords": [17.116667, 48.15]
+	},
+	{
+		"country": "Slovenia",
+		"coords": [14.516667, 46.05]
+	},
+	{
+		"country": "Solomon Islands",
+		"coords": [159.95, -9.433333333]
+	},
+	{
+		"country": "Somalia",
+		"coords": [45.333333, 2.066666667]
+	},
+	{
+		"country": "South Africa",
+		"coords": [28.216667, -25.7]
+	},
+	{
+		"country": "South Korea",
+		"coords": [126.983333, 37.55]
+	},
+	{
+		"country": "South Sudan",
+		"coords": [31.616667, 4.85]
+	},
+	{
+		"country": "Spain",
+		"coords": [-3.683333, 40.4]
+	},
+	{
+		"country": "Sri Lanka",
+		"coords": [79.833333, 6.916666667]
+	},
+	{
+		"country": "Sudan",
+		"coords": [32.533333, 15.6]
+	},
+	{
+		"country": "Suriname",
+		"coords": [-55.166667, 5.833333333]
+	},
+	{
+		"country": "Swaziland",
+		"coords": [31.133333, -26.31666667]
+	},
+	{
+		"country": "Sweden",
+		"coords": [18.05, 59.33333333]
+	},
+	{
+		"country": "Switzerland",
+		"coords": [7.466667, 46.91666667]
+	},
+	{
+		"country": "Syria",
+		"coords": [36.3, 33.5]
+	},
+	{
+		"country": "Taiwan",
+		"coords": [121.516667, 25.03333333]
+	},
+	{
+		"country": "Tajikistan",
+		"coords": [68.766667, 38.55]
+	},
+	{
+		"country": "Tanzania",
+		"coords": [39.283333, -6.8]
+	},
+	{
+		"country": "Thailand",
+		"coords": [100.516667, 13.75]
+	},
+	{
+		"country": "The Bahamas",
+		"coords": [-77.35, 25.08333333]
+	},
+	{
+		"country": "The Gambia",
+		"coords": [-16.566667, 13.45]
+	},
+	{
+		"country": "Timor-Leste",
+		"coords": [125.6, -8.583333333]
+	},
+	{
+		"country": "Togo",
+		"coords": [1.216667, 6.116666667]
+	},
+	{
+		"country": "Tonga",
+		"coords": [-175.2, -21.13333333]
+	},
+	{
+		"country": "Trinidad and Tobago",
+		"coords": [-61.516667, 10.65]
+	},
+	{
+		"country": "Tunisia",
+		"coords": [10.183333, 36.8]
+	},
+	{
+		"country": "Turkey",
+		"coords": [32.866667, 39.93333333]
+	},
+	{
+		"country": "Turkmenistan",
+		"coords": [58.383333, 37.95]
+	},
+	{
+		"country": "Turks and Caicos",
+		"coords": [-71.133333, 21.46666667]
+	},
+	{
+		"country": "Tuvalu",
+		"coords": [179.216667, -8.516666667]
+	},
+	{
+		"country": "Uganda",
+		"coords": [32.55, 0.316666667]
+	},
+	{
+		"country": "United Kingdom",
+		"coords": [-0.083333, 51.5]
+	},
+	{
+		"country": "Ukraine",
+		"coords": [30.516667, 50.43333333]
+	},
+	{
+		"country": "United Arab Emirates (UAE)",
+		"coords": [54.366667, 24.46666667]
+	},
+	{
+		"country": "Uruguay",
+		"coords": [-56.166667, -34.85]
+	},
+	{
+		"country": "Uzbekistan",
+		"coords": [69.25, 41.31666667]
+	},
+	{
+		"country": "Vanuatu",
+		"coords": [168.316667, -17.73333333]
+	},
+	{
+		"country": "Venezuela",
+		"coords": [-66.866667, 10.48333333]
+	},
+	{
+		"country": "Vietnam",
+		"coords": [105.85, 21.03333333]
+	},
+	{
+		"country": "Yemen",
+		"coords": [44.2, 15.35]
+	},
+	{
+		"country": "Zambia",
+		"coords": [28.283333, -15.41666667]
+	},
+	{
+		"country": "Zimbabwe",
+		"coords": [31.033333, -17.81666667]
+	}
+]

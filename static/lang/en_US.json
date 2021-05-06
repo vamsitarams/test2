@@ -1,0 +1,15 @@
+{
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "View details": [""],
+      "": {
+        "domain": "messages",
+        "lang": ""
+      },
+      "USD": [
+        "$"
+      ]
+    }
+  }
+}
